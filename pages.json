@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/app/app",
+			"style": {
+				"navigationBarTitleText": "网店管理",
+                "navigationBarTextStyle":"black"
+			}
+		}
+	    ,{
+            "path" : "pages/service/service",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/service/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/service/result",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/customer/customer",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/store",
+            "style" : {}
+        },
+        {
+            "path" : "pages/store/setting",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/change",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/question",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/withdraw/withdraw",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/message/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/store/message/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/employee/employee",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/employee/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/qrcode/qrcode",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/result",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/step",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/achievement/achievement",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/achievement/info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+    "tabBar": {
+        "color": "#444444",
+        "selectedColor": "#FF80AB",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/app/app",
+                "text": "应用"
+            },
+            {
+                "pagePath": "pages/achievement/achievement",
+                "text": "店铺"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的"
+            }
+        ]
+    }
+}
